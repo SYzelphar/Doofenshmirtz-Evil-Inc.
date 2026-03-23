@@ -1,0 +1,23 @@
+{
+  "saved_at": "2026-03-23 07:14:59",
+  "primary_model": "GradientBoosting",
+  "gb_best_params": {
+    "n_estimators": 200,
+    "max_depth": 7,
+    "learning_rate": 0.1
+  },
+  "rf_best_params": {
+    "max_depth": 20,
+    "min_samples_leaf": 5
+  },
+  "threshold": 0.37000000000000005,
+  "test_roc_auc_gb": 0.9104,
+  "test_recall_gb": 0.6822,
+  "test_roc_auc_ens": 0.9254,
+  "test_recall_ens": 0.6729,
+  "smote_ratio": 0.2,
+  "cv_folds": 5,
+  "train_size": 10612,
+  "test_size": 2654,
+  "n_features": 19
+}
